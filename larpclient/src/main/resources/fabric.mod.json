@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "larpclient",
+  "version": "${version}",
+  "name": "LarpClient",
+  "description": "Client-side visuals + combat utility. RShift opens the menu.",
+  "authors": ["Larpbase"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.larp.client.LarpClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "fabric-api": "*",
+    "minecraft": "1.21.11",
+    "java": ">=21"
+  }
+}
